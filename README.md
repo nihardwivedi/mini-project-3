@@ -1,6 +1,6 @@
 ### Mini Project 3 <br/>
 ### The repo for the third mini project under EC601 - Product Design in ECE course at Boston University. <br/><br/>
-### Topic - Mobile Machine Learning <br/>
+## Mobile Machine Learning <br/>
 ## Introduction
 Mobile machine learning has come a long way in the last few years. These days, with the advent of powerful mobile hardware, it has become possible to develop mobile applications with powerful machine learning features like face recognition or text completion. There are two leading frameworks for this purpose, CoreML for Apple Devices, and MLKit for iOS and Android devices. Mobile ML presents unique challenges, like limited memory and power, and speed requirements. The algorithms need to be optimized for speed, as mobile use cases generally require instantaneous feedback.
 ## CoreML <br/>
