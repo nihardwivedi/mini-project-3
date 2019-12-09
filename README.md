@@ -11,8 +11,11 @@ CoreML is Apple's proprietary framework for embedded machine learning inference 
 Using Create ML and your own data, you can train custom models to perform tasks like recognizing images, extracting meaning from text, or finding relationships between numerical values. Models trained using Create ML are in the Core ML model format and are ready to use in your app.
 
 Apple also provides several popular, open source models that are already in the Core ML model format, like FCRN-DepthPrediction Depth Estimation, MNIST Drawing Classification, Resnet50 Image Classification, YOLOv3 Object Detection etc.<br/>
-![App Architecture](coremlapparch.png)<br/>
+![App Architecture](coremlapparch.png)<br/><br/>
+Unlike MLKit, CoreML models can only be trained in the cloud and not served from the cloud. Its main objective is to enable on device machine learning, utilizing more simple models that can be run on-device.
+
 
 ## ![MLKit](mlkit.png) MLKit <br/>
 MLKit is Google's proprietary framework for embedded machine learning inference on Android and iOS devices. It uses a Firebase backend for model training. Inference can be done either locally or via the cloud. It has superseded Tensorflow lite, which was designed for use in low power devices, such as mobile phones, and is more feature rich than it. <br/><br/>
-![MLKit](mlkitarch.png)
+![MLKit](mlkitarch.png)<br/><br/>
+Unlike CoreML, MLKit can also be used in conjunction with Firebase to serve ML Models via the cloud to millions of end users. This enables some powerful models to be run, with compute shifted to the cloud.
