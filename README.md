@@ -15,3 +15,4 @@ Apple also provides several popular, open source models that are already in the 
 
 ## ![MLKit](mlkit.png) MLKit <br/>
 MLKit is Google's proprietary framework for embedded machine learning inference on Android and iOS devices. It uses a Firebase backend for model training. Inference can be done either locally or via the cloud. It has superseded Tensorflow lite, which was designed for use in low power devices, such as mobile phones, and is more feature rich than it. <br/>
+![MLKit](mlkitarch.png)
