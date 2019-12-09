@@ -18,4 +18,5 @@ Unlike MLKit, CoreML models can only be trained in the cloud and not served from
 ## ![MLKit](mlkit.png) MLKit <br/>
 MLKit is Google's proprietary framework for embedded machine learning inference on Android and iOS devices. It uses a Firebase backend for model training. Inference can be done either locally or via the cloud. It has superseded Tensorflow lite, which was designed for use in low power devices, such as mobile phones, and is more feature rich than it. <br/><br/>
 ![MLKit](mlkitarch.png)<br/><br/>
-Unlike CoreML, MLKit can also be used in conjunction with Firebase to serve ML Models via the cloud to millions of end users. This enables some powerful models to be run, with compute shifted to the cloud.
+Unlike CoreML, MLKit can also be used in conjunction with Firebase to serve ML Models via the cloud to millions of end users. This enables some powerful models to be run, with compute shifted to the cloud.<br/><br/>
+![MLKit](mlkit-2.png)<br/><br/>
