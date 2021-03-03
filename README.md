@@ -17,6 +17,6 @@ MLKit is Google's proprietary framework for embedded machine learning inference 
 Unlike CoreML, MLKit can also be used in conjunction with Firebase to serve ML Models via the cloud to millions of end users. This enables some powerful models to be run, with compute shifted to the cloud, provided the use case is not very latency sensitive, one such example being artwork generation.<br/><br/>
 ![MLKit](mlkit-2.png)<br/><br/>
 ## App 
-Our app is an android app running a tensorflow lite model implementation of the Inception v4 model. It generates bounding boxes and classification scores for objects it seed in the camera feed.
+Our app is an android app running a tensorflow lite model implementation of the Inception v4 model. It generates bounding boxes and classification scores for objects it saw in the camera feed.
 ![Screenshot 1](Screenshot_20191210-114312.jpg)
 ![Screenshot 2](Screenshot_20191216-111805.jpg)<br/><br/>
